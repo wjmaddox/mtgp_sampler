@@ -1,5 +1,29 @@
 ## Bayesian Optimization with High Dimensional Outputs
 
+This is the experimental code repository for the paper [Bayesian Optimization with High Dimensional Outputs]() (NeurIPS 2021) by Wesley Maddox, Max Balandat, Andrew Gordon Wilson, Eytan Bakshy. 
+
+## NOTE
+
+This repository contains experimental code for reproducibility, but we would strongly suggest that you use the `botorch.models.KroneckerMultiTaskGP` and `botorch.models.HigherOrderGP` model classes in [BoTorch](https://botorch.org).
+The Kronecker linear algebra has itself been built into GPyTorch as well.
+
+You can see these tutorials with the [HOGP](https://botorch.org/tutorials/composite_bo_with_hogp) and the [MTGP](https://botorch.org/tutorials/composite_mtbo) respectively.
+
+Note that we cannot at this point release the SCBO codebase as well.
+
+## Citation
+
+```
+@inproceedings{maddox2021bayesian,
+  title={Bayesian Optimization with High-Dimensional Outputs},
+  author={Maddox, Wesley and Balandat, Maximilian and Wilson, Andrew Gordon and Bakshy, Eytan},
+  booktitle={Thirty-Fifth Conference on Neural Information Processing Systems},
+  year={2021}
+}
+```
+
+## Experimental comments
+
 To use, please install botorch master, gpytorch master.
 
 For the CBO experiments on Hartmann-5DEmbedding, you need to install:
@@ -8,12 +32,7 @@ https://github.com/facebookresearch/ContextualBO
 For the optics + HOGP experiments, you need to install: 
 https://github.com/dmitrySorokin/interferobotProject
 
-We are unable to provide the code for the SCBO experiments at this point in time due to licensing issues on
-the side of the authors of that code.
-
-We hope to make these available for the camera ready.
-
-### Main Text
+### Main Text Figures
 
 Figure 2: contextualbo_experiments/post_timing.py
 
@@ -27,7 +46,7 @@ Figure 7 a-c: hogp_experiments/hogp_composite_function.py (use --problem={enviro
 
 Figure 7d: hogp_experiments/hogp_optics.py (use --problem={optics})
 
-### Appendix
+### Appendix Figures
 
 A.1: notebooks/hogp_example_workbook.ipynb
 

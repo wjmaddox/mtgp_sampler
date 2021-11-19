@@ -1,0 +1,14 @@
+*.log
+*.pyc
+*/.ipynb_checkpoints/*
+*cpython*
+*.pt
+.DS_Store
+*.DS_Store
+*.pdf
+*.pkl
+*.tar.gz
+*/Untitled*pynb
+*.npz
+*.json
+*.egg-info/*
