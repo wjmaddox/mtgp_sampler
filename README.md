@@ -1,6 +1,6 @@
 ## Bayesian Optimization with High Dimensional Outputs
 
-This is the experimental code repository for the paper [Bayesian Optimization with High Dimensional Outputs]() (NeurIPS 2021) by Wesley Maddox, Max Balandat, Andrew Gordon Wilson, Eytan Bakshy. 
+This is the experimental code repository for the paper [Bayesian Optimization with High Dimensional Outputs](https://arxiv.org/abs/2106.12997) (NeurIPS 2021) by Wesley Maddox, Max Balandat, Andrew Gordon Wilson, Eytan Bakshy. 
 
 ## NOTE
 
